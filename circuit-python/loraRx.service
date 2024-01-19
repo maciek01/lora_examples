@@ -1,0 +1,16 @@
+
+
+[Unit]
+Description=Lora Receiver
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/
+ExecStart=/usr/bin/python3 /home/pi/bin/loraRx.py
+Restart=on-abort
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
