@@ -1,7 +1,10 @@
 
 Demoes:
--receiving simple lora message and dosplaying on LCD
+
+-receiving simple lora message and displaying on LCD
+
 -sending simple lora message upon a button press
+
 
 hardware: Raspi Zero W, Adafruit RFM95 bonnet
 
