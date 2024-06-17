@@ -19,7 +19,8 @@ sudo cp loraRx.service /lib/systemd/system/loraRx.service
 sudo chmod 644  /lib/systemd/system/loraRx.service
 
 mkdir -p ~/bin
-cp loraRx.py ~/bin/loraRx.py
+#cp loraRx.py ~/bin/loraRx.py
+ln -s $PWD/loraRx.py ~/bin/loraRx.py
 
 
 sudo systemctl daemon-reload
